@@ -1,0 +1,33 @@
+body {
+  background: url(https://wallpaperaccess.com/full/1767837.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+.ChatContent input{
+  width: 50%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.ContentContainer {
+  background-color: black;
+  padding: 10px 15px 10px 15px;
+  width: 50%;
+  border-radius: 5px;
+  color: white;
+}
+.ChatBoxContainer {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  border: 1px solid gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: black;
+}
